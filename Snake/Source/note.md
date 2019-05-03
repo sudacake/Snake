@@ -18,11 +18,11 @@ screen = pygame.display.set_mode((GameState.screen_width, GameState.screen_heigh
 pygame.display.set_caption('Snake')
 ```
 
-## the game loop
-* #### missions
-* ##### get **pygame event**
-* ##### **erase screen**
-* ##### **update the contents of the entire display**
+* #### the game loop
+>#### missions:
+>##### get **pygame event**
+>##### **erase screen**
+>##### **update the contents of the entire display**
 ***
 
 * get **pygame event**
@@ -80,3 +80,5 @@ def check_events():
 def update_screen(screen):
     screen.fill(GameState.screen_background_color)
 ```
+
+# box
